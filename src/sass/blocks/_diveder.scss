@@ -1,0 +1,23 @@
+
+.divider {
+    width: 160px;
+    height: 3px;
+    background-color: $main-color;
+    &-carousel{
+      margin: 0 auto;
+      margin-bottom: 40px;
+      left: 20px;
+    }
+    &-catalog{
+      margin: 0 auto;
+      margin-bottom: 40px;
+      left: 20px;
+      width: 230px;
+    }
+    &-feed{
+      margin: 0 auto;
+      margin-bottom: 40px;
+      left: 20px;
+      width: 270px;
+    }
+  }
