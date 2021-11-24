@@ -1,6 +1,11 @@
 .promo {
+    display: block;
+    min-width: 1300px;
     min-height: 800px;
-    background: url('../../img/cornfield-ga8cc474f0_1920.jpg') center center/cover no-repeat;
+    background: url('../../img/cornfield-ga8cc474f0_1920.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
     &__wrapper {
         display: flex;
         flex-direction: column;
